@@ -24,13 +24,13 @@ const userRegister = async (user) => {
       );
       return {
         status: true,
-        messsage: "user registered successfully",
+        message: "user registered successfully",
         data: token,
       };
     } else {
       return {
         status: false,
-        messsage: "user registered failed",
+        message: "user registered failed",
       };
     }
   } catch (error) {
@@ -44,7 +44,7 @@ const userRegister = async (user) => {
       : null;
     return {
       status: false,
-      messsage: errorMessage,
+      message: errorMessage,
       error: error?.toString(),
     };
   }
@@ -70,26 +70,26 @@ const userLogin = async (user) => {
         );
         return {
           status: true,
-          messsage: "user login successful",
+          message: "user login successful",
           data: token,
         };
       } else {
         return {
           status: false,
-          messsage: "Incorrect password",
+          message: "Incorrect password",
         };
       }
     } else {
       return {
         status: false,
-        messsage: "No user found",
+        message: "No user found",
       };
     }
   } catch (error) {
     console.log(error);
     return {
       status: false,
-      messsage: "User login failed",
+      message: "User login failed",
       error: error?.toString(),
     };
   }
