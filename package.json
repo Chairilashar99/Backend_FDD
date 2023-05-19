@@ -18,7 +18,7 @@
   },
   "projectConfig": {
     "mongoConnectionUrl": "mongodb+srv://Chairilashar:w2pqIwLjtLu0Ekqf@cluster0.dccacst.mongodb.net/?retryWrites=true&w=majority",
-    "serverIp": "192.168.1.4",
+    "serverIp": "192.168.1.13",
     "serverPort": 3000
   }
 }
