@@ -16,7 +16,7 @@
       "paneer",
       "nuggets"
     ],
-    "location": "13A Street, New york",
+    "location": "Jl. A. P. Pettarani No.20 ",
     "distance": 5000,
     "time": 30,
     "images": {
@@ -31,7 +31,7 @@
     "name": "Burger King",
     "type": "Dine-In",
     "tags": ["burgers", "chicken", "veg", "grilled", "fries"],
-    "location": "15th Avenue, New york",
+    "location": "Jl. Hasanuddin No.12",
     "distance": 3900,
     "time": 25,
     "images": {
@@ -56,7 +56,7 @@
       "paneer",
       "bread"
     ],
-    "location": "15th Avenue, New york",
+    "location": "Jl. Perintis Kemerdekaan No.9",
     "distance": 6300,
     "time": 35,
     "images": {
@@ -76,7 +76,7 @@
     "name": "Pizza Hut",
     "type": "Dine-In",
     "tags": ["Pizza", "American Foods", "Chicken", "Meat"],
-    "location": "15th Avenue, New york",
+    "location": "Ratu Indah Mall, Jl. DR. Ratulangi No.35",
     "distance": 5560,
     "time": 31,
     "images": {
@@ -91,7 +91,7 @@
     "name": "Baskin Robins",
     "type": "Take-Away",
     "tags": ["Icecream", "American Foods", "Desserts"],
-    "location": "15th Avenue, New york",
+    "location": "Trans Studio Makassar, Jl. Metro Tj. Bunga No.1C",
     "distance": 3400,
     "time": 21,
     "images": {
@@ -113,7 +113,7 @@
     "name": "Starbucks",
     "type": "Cafe",
     "tags": ["Coffee", "American Foods", "Tea"],
-    "location": "15th Avenue, New york",
+    "location": "Jl. Sultan Alauddin No.267",
     "distance": 6600,
     "time": 36,
     "images": {
@@ -136,7 +136,7 @@
     "name": "Subway",
     "type": "Take-Away",
     "tags": ["American Foods", "Burger", "Sandwitch"],
-    "location": "15th Avenue, New york",
+    "location": "Jl. Raya Casablanca No.88",
     "distance": 4800,
     "time": 26,
     "images": {
@@ -158,7 +158,7 @@
     "name": "KFC",
     "type": "Dine-In",
     "tags": ["American Foods", "Chicken"],
-    "location": "15th Avenue, New york",
+    "location": "Jalan AHMAD YANI NO. 23",
     "distance": 2600,
     "time": 16,
     "images": {
