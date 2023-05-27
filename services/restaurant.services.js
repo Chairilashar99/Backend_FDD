@@ -58,7 +58,7 @@ const getOneRestaurantById = async (restaurantId) => {
     } else {
       return {
         status: false,
-        message: "No restaurants found",
+        message: "No restaurant found",
       };
     }
   } catch (error) {
