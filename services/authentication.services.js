@@ -53,7 +53,7 @@ const userRegister = async (user) => {
 
 const userLogin = async (user) => {
   try {
-    if (!user?.username || !user.password)
+    if (!user?.username || !user?.password)
       return { status: false, message: "Please fill up all the fields" };
     let userObject = await MongoDB.db
       .collection(mongoConfig.collections.USERS)
@@ -134,7 +134,7 @@ const tokenVerification = async (req, res, next) => {
             error: `Invalid token | ${error?.message}`,
           });
         } else {
-          req["username"] = decoded?.usermame;
+          req["username"] = decoded?.username;
           next();
         }
       });

@@ -1,4 +1,5 @@
 const config = require("./package.json").projectConfig;
+
 module.exports = {
   mongoConfig: {
     connectionUrl: config.mongoConnectionUrl,

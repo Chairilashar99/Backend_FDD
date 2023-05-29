@@ -13,13 +13,13 @@ const addToCart = async ({ foodId, username }) => {
     if (updatedCart?.modifiedCount > 0 || updatedCart?.upsertedCount > 0) {
       return {
         status: true,
-        message: "Item Added to Cart Successfully",
+        message: "Item Added to cart successfully",
       };
     }
   } catch (error) {
     return {
       status: false,
-      message: "Item Added to Cart Failed",
+      message: "Item Added to cart Failed",
     };
   }
 };
