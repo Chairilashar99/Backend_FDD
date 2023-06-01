@@ -11,9 +11,11 @@ const addToCart = async ({ foodId, username }) => {
         { upsert: true }
       );
     if (updatedCart?.modifiedCount > 0 || updatedCart?.upsertedCount > 0) {
+      let cartResponse = await getCartItems({ username });
       return {
         status: true,
         message: "Item Added to cart successfully",
+        data: cartResponse?.data,
       };
     }
   } catch (error) {
@@ -33,9 +35,11 @@ const removeFromCart = async ({ foodId, username }) => {
       await MongoDb.db
         .collection(mongoConfig.collections.CARTS)
         .deleteOne({ foodId, username });
+      let cartResponse = await getCartItems({ username });
       return {
         status: true,
         message: "Item Remove from cart successfully",
+        data: cartResponse?.data,
       };
     }
     let updatedCart = await MongoDb.db
@@ -46,9 +50,11 @@ const removeFromCart = async ({ foodId, username }) => {
         { upsert: true }
       );
     if (updatedCart?.modifiedCount > 0 || updatedCart?.upsertedCount > 0) {
+      let cartResponse = await getCartItems({ username });
       return {
         status: true,
         message: "Item Remove from cart successfully",
+        data: cartResponse?.data,
       };
     }
   } catch (error) {
