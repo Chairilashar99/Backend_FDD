@@ -103,7 +103,7 @@ const getCartItems = async ({ username }) => {
           metaData: {
             itemsTotal,
             discount,
-            garndTotal: itemsTotal - discount,
+            grandTotal: itemsTotal - discount,
           },
         },
       };
