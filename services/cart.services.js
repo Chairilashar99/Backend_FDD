@@ -107,6 +107,11 @@ const getCartItems = async ({ username }) => {
           },
         },
       };
+    } else {
+      return {
+        status: false,
+        message: "Cart items not found",
+      };
     }
   } catch (error) {
     return {
